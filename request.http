@@ -1,0 +1,12 @@
+### Test the Django Ingestion API
+# A simple POST request to the data ingestion endpoint.
+# The Content-Type: application/json header is essential.
+
+POST http://127.0.0.1:8000/api/ingest/
+Content-Type: application/json
+
+{
+  "message": "Hello from a .http file!",
+  "user_id": "HttpFileTester",
+  "timestamp": "{{$datetime iso8601}}"
+}
