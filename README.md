@@ -48,4 +48,3 @@ You can check your database or logs to see the processed data, including the sen
 Contributing
 Feel free to open issues or submit pull requests.
 License
-This project is licensed under the MIT License.
